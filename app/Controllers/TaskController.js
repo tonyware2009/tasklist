@@ -1,5 +1,5 @@
-import { task } from "../Models/Tasks"
-import service from "../Services/TaskService"
+import { task } from "../Models/Tasks.js"
+import service from "../Services/TaskService.js"
 
 
 export class TaskController {
