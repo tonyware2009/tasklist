@@ -2,7 +2,7 @@ export function taskItemForm() {
   return /*html*/ `
   <form onsubmit="app.taskController.createTaskItem()">
     <div class="form-group">
-      <input type="text" name="taskName" class="form-control" placeholder="Name..." minlength="4"
+      <input type="text" name="taskName" class="form-control" placeholder="what to do?" minlength="4"
         maxlength="50" required>
     </div>
     <div class="form-group mt-2">
