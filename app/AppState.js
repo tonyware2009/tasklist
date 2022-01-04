@@ -5,6 +5,7 @@ class AppState extends EventEmitter {
   /** @type {import('./Models/Value').Value[]} */
   values = []
   tasks = [
+    new Task = name
 
   ]
 

@@ -3,8 +3,8 @@ import { generateId } from "../Utils/generateId.js"
 
 export class task {
   constructor(data) {
-    this.name = data.name
-    this.id = generateId()
-    this.task = data.task
+    this.title = data.title
+    this.tasks = data.tasks || []
+    this.id = data.id || generateId()
   }
 }
